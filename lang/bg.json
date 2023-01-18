@@ -1,5 +1,5 @@
 {
-    "DeviceDetectorCache": {
+    "DynamicDeviceDetectorCache": {
         "PluginDescription": "Прави проследяването по-бързо, като открива много устройства, операционни системи, ботове и браузъри от кеша."
     }
 }

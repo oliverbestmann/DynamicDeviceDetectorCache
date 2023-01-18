@@ -1,22 +1,22 @@
 {
-  "name": "DeviceDetectorCache",
+  "name": "DynamicDeviceDetectorCache",
   "description": "Makes tracking faster by detecting many devices, operating systems, bots, and browsers from a cache.",
-  "version": "4.3.1",
+  "version": "1.0.0",
   "theme": false,
   "require": {
-    "matomo": ">=4.12.0-b3,<5.0.0-b1"
+    "matomo": ">=4.13.0,<5.0.0-b1"
   },
   "authors": [
     {
-      "name": "Matomo",
-      "email": "hello@matomo.org",
-      "homepage": "https://matomo.org"
+      "name": "Oliver Bestmann",
+      "email": "oliver.bestmann+matomo@googlemail.com",
+      "homepage": "https://github.com/oliverbestmann/"
     }
   ],
   "support": {
-	    "issues": "https://github.com/matomo-org/plugin-DeviceDetectorCache/issues"
+	    "issues": "https://github.com/oliverbestmann/plugin-DeviceDetectorCache/issues"
   },
-  "homepage": "https://matomo.org",
+  "homepage": "https://github.com/oliverbestmann/plugin-DeviceDetectorCache",
   "license": "GPL v3+",
   "keywords": ["device", "detector", "tracking", "performance"]
 }

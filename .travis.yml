@@ -23,7 +23,7 @@ git:
 # Separate different test suites
 env:
   global:
-    - PLUGIN_NAME=DeviceDetectorCache
+    - PLUGIN_NAME=DynamicDeviceDetectorCache
     - PIWIK_ROOT_DIR=$TRAVIS_BUILD_DIR/matomo
     # this variable controls the version of Matomo your tests will run against.
     # by default it will run against the maximum support version read from plugin.json
@@ -84,7 +84,7 @@ install:
   - '[ -d ./tests/travis/.git ] || sh -c "rm -rf ./tests/travis && git clone https://github.com/matomo-org/travis-scripts.git ./tests/travis"'
   - cd ./tests/travis ; git checkout master ; cd ../..
 
-  - export GENERATE_TRAVIS_YML_COMMAND="php ./tests/travis/generator/main.php generate:travis-yml --plugin=\"DeviceDetectorCache\" --php-versions=\"7.2\" --distribution=\"bionic\" --sudo-false --verbose"
+  - export GENERATE_TRAVIS_YML_COMMAND="php ./tests/travis/generator/main.php generate:travis-yml --plugin=\"DynamicDeviceDetectorCache\" --php-versions=\"7.2\" --distribution=\"bionic\" --sudo-false --verbose"
   - '[[ "$TRAVIS_JOB_NUMBER" != *.1 || "$TRAVIS_PULL_REQUEST" != "false" ]] || ./tests/travis/autoupdate_travis_yml.sh'
 
   - ./tests/travis/checkout_test_against_branch.sh

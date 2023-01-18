@@ -1,5 +1,5 @@
 {
-    "DeviceDetectorCache": {
+    "DynamicDeviceDetectorCache": {
         "PluginDescription": "Zrychluje sledování detekováním mnoha zařízení, operačních systémů, robotů a prohlížečů z mezipaměti."
     }
 }

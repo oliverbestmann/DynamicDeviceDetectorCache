@@ -1,5 +1,5 @@
 {
-    "DeviceDetectorCache": {
+    "DynamicDeviceDetectorCache": {
         "PluginDescription": "Gjør sporing raskere ved å oppdage mange enheter, operativsystemer, botter og nettlesere fra et hurtiglager."
     }
 }

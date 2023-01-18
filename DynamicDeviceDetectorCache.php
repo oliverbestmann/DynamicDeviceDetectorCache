@@ -7,9 +7,9 @@
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
  */
 
-namespace Piwik\Plugins\DeviceDetectorCache;
+namespace Piwik\Plugins\DynamicDeviceDetectorCache;
 
-class DeviceDetectorCache extends \Piwik\Plugin
+class DynamicDeviceDetectorCache extends \Piwik\Plugin
 {
     public function isTrackerPlugin()
     {

@@ -1,5 +1,5 @@
 {
-    "DeviceDetectorCache": {
+    "DynamicDeviceDetectorCache": {
         "PluginDescription": "從快取內刪除一些裝置、作業系統、機器人、瀏覽器，以便加速追蹤。"
     }
 }

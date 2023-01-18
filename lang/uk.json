@@ -1,5 +1,5 @@
 {
-    "DeviceDetectorCache": {
+    "DynamicDeviceDetectorCache": {
         "PluginDescription": "Прискорює відстеження, виявляючи багато пристроїв, операційних систем, ботів і браузерів із кешу."
     }
 }

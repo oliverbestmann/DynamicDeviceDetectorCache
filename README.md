@@ -21,7 +21,7 @@ If you have not that much traffic, the overhead might not be worth it.
 Configure these values in your `config/config.ini.php`
 
 ```
-[DeviceDetectorCache]
+[DynamicDeviceDetectorCache]
 access_log_path = "/var/log/httpd/access_log" # The path to your access log file. This command needs to have read permission for this file
 access_log_regex = "/^(\S+) (\S+) (\S+) \[([^:]+):(\d+:\d+:\d+) ([^\]]+)\] \"(\S+) (.*?) (\S+)\" (\S+) (\S+) \"([^\"]*)\" \"([^\"]*)\"$/" # the regex used to extract the user agent
 regex_match_entry = 14 # defines which subpattern of the abovce regex matches the user agent

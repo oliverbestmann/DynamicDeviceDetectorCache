@@ -1,5 +1,5 @@
 {
-    "DeviceDetectorCache": {
+    "DynamicDeviceDetectorCache": {
         "PluginDescription": "Hace que el rastreo sea más rápido detectando muchos dispositivos, sistemas operativos, bots y navegadores web desde un archivo de memoria caché."
     }
 }

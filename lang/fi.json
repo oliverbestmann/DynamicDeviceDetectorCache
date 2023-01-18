@@ -1,5 +1,5 @@
 {
-    "DeviceDetectorCache": {
+    "DynamicDeviceDetectorCache": {
         "PluginDescription": "Nopeuttaa seurantaa tunnistamalla välimuistista useita laitteita, käyttöjärjestelmiä, botteja ja selaimia."
     }
 }
