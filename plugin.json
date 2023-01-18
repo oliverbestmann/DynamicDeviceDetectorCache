@@ -8,15 +8,24 @@
   },
   "authors": [
     {
-      "name": "Oliver Bestmann",
-      "email": "oliver.bestmann+matomo@googlemail.com",
-      "homepage": "https://github.com/oliverbestmann/"
+      "name": "Oliver Bestmann"
     }
   ],
   "support": {
-	    "issues": "https://github.com/oliverbestmann/plugin-DeviceDetectorCache/issues"
+    "issues": "https://github.com/oliverbestmann/DynamicDeviceDetectorCache/issues",
+    "source": "https://github.com/oliverbestmann/DynamicDeviceDetectorCache"
   },
-  "homepage": "https://github.com/oliverbestmann/plugin-DeviceDetectorCache",
+  "homepage": "https://github.com/oliverbestmann/DynamicDeviceDetectorCache",
   "license": "GPL v3+",
-  "keywords": ["device", "detector", "tracking", "performance"]
+  "keywords": [
+    "device",
+    "detector",
+    "tracking",
+    "performance"
+  ],
+  "archive": {
+    "exclude": [
+      "/.git"
+    ]
+  }
 }
