@@ -25,8 +25,6 @@ You can configure these values in your `config/config.ini.php`
 cache_ttl_in_seconds = 300
 ```
 
-#### Testing if it works
-
 ## Credits
 
 * [Original DeviceDetectorCache plugin](https://github.com/matomo-org/plugin-DeviceDetectorCache)
