@@ -13,8 +13,8 @@ use Piwik\Config;
 
 class Configuration
 {
-    const KEY_CacheTTLInSeconds = 'cache_ttl_in_seconds';
-    const DEFAULT_CacheTTLInSeconds = 300;
+    public const KEY_CACHETTLINSECONDS = 'cache_ttl_in_seconds';
+    public const DEFAULT_CACHETTLINSECONDS = 300;
 
     public function install()
     {
@@ -27,8 +27,8 @@ class Configuration
         $cache = $config->DynamicDeviceDetectorCache;
 
         // we make sure to set a value only if none has been configured yet, eg in common config.
-        if (empty($cache[self::KEY_CacheTTLInSeconds])) {
-            $cache[self::KEY_CacheTTLInSeconds] = self::DEFAULT_CacheTTLInSeconds;
+        if (empty($cache[self::KEY_CACHETTLINSECONDS])) {
+            $cache[self::KEY_CACHETTLINSECONDS] = self::DEFAULT_CACHETTLINSECONDS;
         }
 
         $config->DynamicDeviceDetectorCache = $cache;
@@ -48,7 +48,7 @@ class Configuration
      */
     public function getCacheTTLInSeconds()
     {
-        return $this->getConfigValue(self::KEY_CacheTTLInSeconds, self::DEFAULT_CacheTTLInSeconds);
+        return $this->getConfigValue(self::KEY_CACHETTLINSECONDS, self::DEFAULT_CACHETTLINSECONDS);
     }
 
     private function getConfig()
