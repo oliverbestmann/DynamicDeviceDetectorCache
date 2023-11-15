@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Matomo - free/libre analytics platform
  *
@@ -34,7 +35,7 @@ class Factory extends DeviceDetectorFactory
         if ($serialized !== false) {
             // if we find a detector, deserialize it
             $cdd = Common::safe_unserialize($serialized, true);
-            if (isset($cdd) && $cdd !== FALSE) {
+            if (isset($cdd) && $cdd !== false) {
                 return $cdd;
             }
         }
