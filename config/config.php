@@ -2,5 +2,5 @@
 
 return [
     \Piwik\DeviceDetector\DeviceDetectorFactory::class
-        => DI\autowire(\Piwik\Plugins\DynamicDeviceDetectorCache\Factory::class),
+        => Piwik\DI::autowire(\Piwik\Plugins\DynamicDeviceDetectorCache\Factory::class),
 ];
